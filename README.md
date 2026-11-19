@@ -9,15 +9,6 @@
   <em>No spoof, just proof.</em>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/github/repo-size/EnhancedUNC/eUNC?style=flat-square&color=50C878&label=Repository%20Size">
-  <img src="https://img.shields.io/github/languages/code-size/EnhancedUNC/eUNC?style=flat-square&color=50C878&label=Code%20Size">
-  <img src="https://img.shields.io/github/license/EnhancedUNC/eUNC?style=flat-square&color=50C878">
-  <img src="https://img.shields.io/github/last-commit/EnhancedUNC/eUNC?style=flat-square&color=50C878&label=Last%20Commit">
-</p>
-
----
-
 ## About
 **eUNC (Enhanced UNC)** is a lightweight and an open-source Roblox executor capability benchmark designed to test, verify, and report executor functionality.
 Rather than simply checking whether an API exists, eUNC aims to verify whether individual functions behave as expected through dedicated functional tests.
