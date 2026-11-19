@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/EnhancedUNC/eUNC/main/assets/banner_notxt.png" alt="eUNC-Banner" width="600">
+  <img src="https://github.com/EnhancedUNC/Results/blob/main/Assets/Banner.png" alt="eUNC-Banner" width="600">
 </p>
 
 <p align="center">
@@ -19,103 +19,238 @@
 ---
 
 ## About
-
 **eUNC (Enhanced UNC)** is a lightweight and an open-source Roblox executor capability benchmark designed to test, verify, and report executor functionality.
-
 Rather than simply checking whether an API exists, eUNC aims to verify whether individual functions behave as expected through dedicated functional tests.
-
 All results are displayed directly in the executor console, providing a straightforward overview of supported capabilities.
 
-## Features
-
-- Individual capability tests
-- Functional API verification
-- Console-based reporting
-- Pass, fail, and unknown classifications
-- Overall compatibility scoring
-- Organized test categories
-- Executor identification
+## Tested Executors
+- Xeno
+- Solara
+- Real
+- Madium
+- Frost
 
 *Features are planned and subject to change during development.*
 
-## Test Results
-
+## Example Results
 eUNC uses three primary result indicators:
 
-| Indicator | Result | Description |
-|:---:|---|---|
-| ✅ | PASS | The test completed successfully. |
-| ❌ | NOT PASSED | The test did not pass its verification. |
-| ⏺️ | UNKNOWN | The result could not be determined. |
-
-**Important:** A failed test does not necessarily mean an executor is broken. It simply means the test did not pass.
-
-## Test Categories
-
-Planned testing categories include:
-
-- Cryptography
-- Debug Library
-- Closures
-- Drawing API
-- Filesystem
-- Metatables
-- Environment
-- Instance Utilities
-- Script Utilities
-- HTTP Requests
-- WebSockets
-- Executor Identification
-
-## Example Output
-
-```text
-   ________  ________   _______   _______ 
-  /        \/    /   \//   /   \//       \
- /         /         //        //        /
-/        _/        //         /       --/ 
-\________/\_______//\__/_____/\________/
-
-	Enhanced UNC Benchmark
-	 No Spoof, just proof
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-✅ Function1
-✅ Function2
-✅ Function3
-✅ Function4
-✅ Function5
-✅ Function6
-✅ Function7
-✅ Function8
-❌ Function9
-❌ Function10
-❌ Function11
-❌ Function12
-❌ Function13
-⏺️ Function14
-⏺️ Function15
-⏺️ Function16
-⏺️ Function17
-⏺️ Function18
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-💉 Executor: ExecutorName
-⌛ Took: %TimeItTook%
-📊 Passed: 8 | Failed: 5 | Unknown: 5
-📄 Score: %Percentage%
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-eID: XXXX-XXXX-XXXX-X
+**Solara's Test:**
 ```
+    ________  ________   _______   _______
+   /        \/    /   \//   /   \//       \
+  /         /         //        //        /
+ /        _/        //         /       --/
+ \________/\_______//\__/_____/ \________/
 
-*Example output only. Values are illustrative.*
+ Enhanced UNC Benchmark
+  No Spoof, just proof
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## Development
+✅ checkcaller
+✅ listfiles
+✅ isfolder
+✅ isfile
+✅ getfilecontents
+✅ loadfile
+✅ readfile
+✅ makefolder
+✅ roundtrip
+✅ setfilecontents
+✅ getcustomasset
+✅ dofile
+✅ getrenv
+✅ gethui
+✅ getgenv
+✅ getasset
+✅ identifyexecutor
+✅ delfile
+✅ appendfile
+✅ delfolder
+✅ getexecutorname
+✅ writefile
+✅ http_request
+✅ getloadedmodules
+✅ setrawmetatable
+✅ make_readonly
+✅ getrawmetatable
+✅ getrunningscripts
+✅ loadstring
+✅ getscripts
+✅ websocket_connect
+✅ getrequest
+✅ getnamecallmethod
+✅ getloadedmodules
+✅ getexecutorname
+✅ postrequest
+✅ getnilinstances
+✅ gethwid
+✅ gethui
+✅ identifyexecutor
+✅ getinstances
+✅ traceback
+✅ getreg
+✅ base64_decode_binary
+✅ newcclosure
+✅ islclosure
+✅ aes_decrypt
+✅ getnamecallmethod
+✅ newlclosure
+✅ base64_encode
+✅ base64_encode_binary
+✅ aes_encrypt
+✅ base64_decode
+✅ clonefunction
+✅ iscclosure
+❌ random
+❌ isreadonly
+❌ getscriptfunction
+❌ getinfo
+❌ setreadonly
+❌ request
+❌ getrenderproperty
+❌ isnetworkowner
+❌ sethiddenproperty
+❌ cloneref
+❌ getscriptbytecode
+❌ compareinstances
+❌ getscriptclosure
+❌ getscripthash
+❌ gethiddenproperty
+❌ getscriptfunction
+❌ getscriptclosure
+⏺️ replaceclosure
+⏺️ restorefunction
+⏺️ getexecutorversion
+⏺️ websocket_headers
+⏺️ getchildren
+⏺️ getscriptname
+⏺️ getconnections
+⏺️ cloneclosure
+⏺️ request_response
+⏺️ getclientid
+⏺️ websocket_onclose
+⏺️ httpget_async
+⏺️ httpget
+⏺️ websocket_onopen
+⏺️ websocket_onmessage
+⏺️ getdeviceid
+⏺️ httppost
+⏺️ setnamecallmethod
+⏺️ request_status
+⏺️ httppost_async
+⏺️ request_headers
+⏺️ request_body
+⏺️ getdescendants
+⏺️ isexecutorclosure
+⏺️ checkclosure
+⏺️ websocket_binary
+⏺️ setreadonly_false
+⏺️ setnamecallmethod
+⏺️ metatable_tostring
+⏺️ metatable_newindex
+⏺️ setreadonly_true
+⏺️ getclosureinfo
+⏺️ getscriptthread
+⏺️ getcallingscript
+⏺️ getscriptpath
+⏺️ closureaddress
+⏺️ websocket_connection_state
+⏺️ metatable_index
+⏺️ metatable_call
+⏺️ getproperties
+⏺️ getroot
+⏺️ isfunctionhooked
+⏺️ getinstancesbyclass
+⏺️ metatable_eq
+⏺️ websocket_close
+⏺️ getrawmetatable_protection
+⏺️ make_writeable
+⏺️ hookmetamethod
+⏺️ hookfunction
+⏺️ hookmetamethod
+⏺️ trampolinecall
+⏺️ getconstantcount
+⏺️ decrypt
+⏺️ drawing_clear
+⏺️ drawing_color
+⏺️ drawing_filled
+⏺️ drawing_circle
+⏺️ setupvalues
+⏺️ getconnections
+⏺️ setupvalue
+⏺️ drawing_font
+⏺️ drawing_image
+⏺️ drawing_position
+⏺️ drawing_quad
+⏺️ drawing_getobjects
+⏺️ drawing_new
+⏺️ drawing_isrenderobj
+⏺️ drawing_line
+⏺️ drawing_remove
+⏺️ setstack
+⏺️ setfenv
+⏺️ getlocal
+⏺️ getproto
+⏺️ getprotos
+⏺️ getgc
+⏺️ getconstants
+⏺️ getfenv
+⏺️ setlocal
+⏺️ getprotosinfo
+⏺️ getstack
+⏺️ getupvalues
+⏺️ setconstant
+⏺️ getregistry
+⏺️ getupvaluecount
+⏺️ getstacksize
+⏺️ getupvalue
+⏺️ getconstant
+⏺️ drawing_size
+⏺️ drawing_text
+⏺️ randomstring
+⏺️ hmac
+⏺️ hash_sha256_vector
+⏺️ setfenv
+⏺️ getsenv
+⏺️ rsa_decrypt
+⏺️ getrenv_global
+⏺️ hash
+⏺️ generatebytes
+⏺️ digest
+⏺️ derivekey
+⏺️ generatekey
+⏺️ encrypt
+⏺️ getfileextension
+⏺️ getfilesize
+⏺️ drawing_square
+⏺️ getrenv_environment
+⏺️ websocket_ping
+⏺️ drawing_visible
+⏺️ verify_signature
+⏺️ getexecutorversion
+⏺️ drawing_triangle
+⏺️ drawing_thickness
+⏺️ drawing_transparency
+⏺️ rsa_encrypt
+⏺️ getfenv
+⏺️ verify
+⏺️ getmenv
+⏺️ getgc
+⏺️ sign
+⏺️ getgenv_isolation
+⏺️ getgenv_persistence
+⏺️ websocket_send
 
-eUNC is currently under development. Test coverage, scoring, and implementation details may change as the project evolves.Our planned functions checks is 193 but right now we have 39.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💉 Executor: Solara 3.0
+⌛ Took: 2.15s
+📊 Passed: 55 | Failed: 17 | Unknown: 122 | Skipped: 0
+📄 Score: 28.35%
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧪 Subtests: 0 | ✅ 0 | ❌ 0 | ⏺️ 0 | 🔳 0
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
 
 ## License
 
