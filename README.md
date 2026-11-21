@@ -21,7 +21,7 @@ All results are displayed directly in the executor console, providing a straight
 - Madium
 - Frost
 
-*Features are planned and subject to change during development.*
+*More executors are being tested. If you have tested an executor that we haven't tested yet. Please reach out.*
 
 ## Example Results
 eUNC uses three primary result indicators:
